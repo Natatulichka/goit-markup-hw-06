@@ -849,9 +849,9 @@ background-color: #404bbf;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 408px;
-    min-height: 584px;
-    padding: 72px 24px 24px 24px;
+    width: 288px;
+    min-height: 623px;    
+    padding: 72px 16px 24px 16px;
     border-radius: 4px;
     background: #fcfcfc;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
@@ -887,8 +887,14 @@ background-color: #404bbf;
 .close-btn:hover .close-icon,
 .close-btn:focus .close-icon {
     fill: #fff;
-} */
-
+} 
+@media screen and (min-width: 768px) {
+    .modal {   
+       width: 408px;
+       min-height: 584px;
+       padding: 72px 24px 24px 24px;
+    }
+   }
  /* =========== /Modal window styles =========== */
 
  /* =========== Review form styles =========== */
@@ -1038,8 +1044,9 @@ background-color: #404bbf;
  .review-form-submit-btn:hover,
  .review-form-submit-btn:focus {
     background-color: #404bbf;
- }  
-
+ } 
+ 
+ 
  =========== /Review form styles =========== 
  
 
