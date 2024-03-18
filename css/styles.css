@@ -60,9 +60,9 @@ img {
     height: auto;
 }
 
-/*============ /Common style =========*/
+/* /Common style */
 
-/*======== Header ========*/
+/* Header */
 .page-header {
     border-bottom: 1px solid #e7e9fc;  
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
@@ -87,7 +87,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;    
-    padding: 17px 0;     
+    padding: 0;     
 }
 .logo-part {
     color: #2E2F42;
@@ -185,8 +185,8 @@ img {
  }
 
 
-/*======== /Header ========*/
-/* =========== Mobile menu styles ===========  */
+/* /Header*/
+/* Mobile menu styles  */
   
 @media screen and (max-width: 767px) {   
 .mobile-menu {
@@ -283,8 +283,8 @@ img {
       display: none;
     }
   }
-/* =========== /Mobile menu styles ===========  */
-/*======== Hero section ========*/
+/*  /Mobile menu styles  */
+/* Hero section */
 .hero {
     background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -350,9 +350,9 @@ img {
  .button-link:focus {
     background-color: #404bbf;
  } 
- /*======== /Hero section ========*/
+ /* /Hero section */
 
-/* ======== Advant section ======== */
+/* Advant section */
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -362,7 +362,7 @@ img {
     padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
-    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
     overflow: hidden;
 }
 .advant-list {
@@ -441,14 +441,15 @@ img {
     .advant-icon {
     display: flex;
     }
-} */
-/* ======== /Advant section ======== */
+} 
+/* /Advant section */
 
-/* ======== Team section ======== */
+
+/* Team section */
 
 .team {
     color: #2e2f42;
-    background: #f4f4fd;    
+    background-color: #f4f4fd;
 }
 .team-container {
     padding: 0px 28px;
@@ -548,9 +549,9 @@ background-color: #404bbf;
 }
 
 
-/* ======== /Team section ======== */
+/*  /Team section */
 
-/* ======== Portfolio section ======== */
+/* Portfolio section  */
  .portfolio {
     color: #2e2f42;  
 }
@@ -662,9 +663,9 @@ background-color: #404bbf;
     }  
 }
 
-/* ======== /Portfolio section ======== */
+/* /Portfolio section */
 
-/* ======== Footer ======== */
+/* Footer */
 .contacts {    
     background-color: #2e2f42;    
     padding: 96px 0 96px;
@@ -689,12 +690,11 @@ background-color: #404bbf;
     text-align: center;
 }
 .logo {
-    display: inline-block;
-    padding: 0;
-    margin-bottom: 16px;
+    display: inline-block;      
 }
 .contacts-dscr {   
     max-width: 264px;
+    margin-top: 16px;
 }
 .social-media-dscr {
     margin-bottom: 16px;
@@ -819,8 +819,9 @@ background-color: #404bbf;
 }
 
 
-/* ======== Footer ======== */
 /* =========== Backdrop styles =========== */
+/* /Footer */
+/* Backdrop styles */
  .backdrop {
     position: fixed;
     top: 0;
@@ -840,9 +841,9 @@ background-color: #404bbf;
     pointer-events: auto;
 }
 
-/* =========== /Backdrop styles =========== */
+/* /Backdrop styles */
 
- /* =========== Modal window styles =========== */
+ /* Modal window styles */
 
  .modal {
     position: absolute;
@@ -894,10 +895,11 @@ background-color: #404bbf;
        min-height: 584px;
        padding: 72px 24px 24px 24px;
     }
-   }
- /* =========== /Modal window styles =========== */
+}
+   
+ /* /Modal window styles */
 
- /* =========== Review form styles =========== */
+ /* Review form styles */
   .review-form-description {
     max-width: 360px;
     font-weight: 500;
@@ -1046,8 +1048,14 @@ background-color: #404bbf;
     background-color: #404bbf;
  } 
  
- 
- =========== /Review form styles =========== 
+ @media screen and (min-width: 768px) {
+    .review-form-submit-btn {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        }
+ }
+/* /Review form styles  */
  
 
     
