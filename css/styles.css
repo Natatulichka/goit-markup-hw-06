@@ -87,7 +87,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;    
-    padding: 0;     
+    padding: 16px 0;     
 }
 .logo-part {
     color: #2E2F42;
@@ -694,7 +694,6 @@ background-color: #404bbf;
 }
 .contacts-dscr {   
     max-width: 264px;
-    margin-top: 16px;
 }
 .social-media-dscr {
     margin-bottom: 16px;
